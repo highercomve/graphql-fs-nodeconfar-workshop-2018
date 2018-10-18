@@ -1,0 +1,63 @@
+Arguments: 
+  /Users/sergiomarin/.nvm/versions/node/v8.11.3/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js
+
+PATH: 
+  /Users/sergiomarin/.rvm/gems/ruby-2.4.1/bin:/Users/sergiomarin/.rvm/gems/ruby-2.4.1@global/bin:/Users/sergiomarin/.rvm/rubies/ruby-2.4.1/bin:/Users/sergiomarin/.kiex/bin:/Users/sergiomarin/.nvm/versions/node/v8.11.3/bin:~/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/sergiomarin/.rvm/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND npm.repository.east npm.repository.east:80
+      at errnoException (dns.js:50:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  {
+    "name": "graphql-fs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "start:dev": "nodemon src/index.js",
+      "lint": "eslint 'src/**/*.js'",
+      "test": "jest",
+      "test:ci": "npm run test:0",
+      "test:0": "jest step-0.js",
+      "test:1": "jest \"step-[0-1].js\"",
+      "test:2": "jest \"step-[0-2].js\"",
+      "test:3": "jest \"step-[0-3].js\"",
+      "test:4": "jest \"step-[0-4].js\"",
+      "test:5": "jest \"step-[0-5].js\"",
+      "test:6": "jest \"step-[0-6].js\"",
+      "test:7": "jest \"step-[0-7].js\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "apollo-server": "^2.0.7",
+      "graphql": "^0.13.2",
+      "graphql-tools": "^3.1.1"
+    },
+    "devDependencies": {
+      "eslint": "^5.4.0",
+      "eslint-config-airbnb-base": "^13.1.0",
+      "eslint-plugin-import": "^2.14.0",
+      "eslint-plugin-jest": "^21.22.0",
+      "jest": "^23.5.0",
+      "nodemon": "^1.18.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

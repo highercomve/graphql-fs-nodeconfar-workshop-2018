@@ -36,16 +36,8 @@ Object {
       Object {
         "ls": Array [
           Object {
-            "name": "Father",
-            "type": "Dir",
-          },
-          Object {
-            "name": "Homer_Simpson.png",
+            "name": "Clancy_Bouvier.jpg",
             "type": "File",
-          },
-          Object {
-            "name": "Mother",
-            "type": "Dir",
           },
         ],
         "name": "Father",
@@ -58,23 +50,7 @@ Object {
       Object {
         "ls": Array [
           Object {
-            "name": "Father",
-            "type": "Dir",
-          },
-          Object {
-            "name": "Marge_Simpson.png",
-            "type": "File",
-          },
-          Object {
-            "name": "Mother",
-            "type": "Dir",
-          },
-          Object {
-            "name": "Patty_Bouvier.png",
-            "type": "File",
-          },
-          Object {
-            "name": "Selma_Bouvier.png",
+            "name": "Jacqueline_Bouvier.gif",
             "type": "File",
           },
         ],

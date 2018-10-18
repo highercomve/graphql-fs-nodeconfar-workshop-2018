@@ -35,6 +35,7 @@ const readDir = async (path = '') => {
     return {
       name,
       type,
+      path: finalPath.replace(`${getRootPath()}/`, ''),
     };
   }));
 };
