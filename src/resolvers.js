@@ -42,7 +42,7 @@ module.exports = {
   Dir: {
     dirs: dirResolver(DIR_TYPE),
     files: dirResolver(FILE_TYPE),
-    ls: dirResolver()
+    ls: dirResolver(),
   },
   // Agrega debajo los resolvers para tipos custom como File
 };
